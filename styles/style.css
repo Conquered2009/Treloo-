@@ -1,0 +1,20 @@
+/* CSS Reset */
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins',  sans-serif;
+    /* background-color: #f5f5f5; */
+
+    .hero-container {
+        background-image: url ('images/hero-bg.jpg');
+        background-size: cover;
+        background-position: cover;
+        height: 700px;
+        position: relative;
+        /* padding: 20px;  */
+    }
