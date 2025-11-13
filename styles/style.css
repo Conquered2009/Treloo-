@@ -46,6 +46,7 @@ header {
     display: flex;
     gap: 40px;
     align-items: center;
+    font-size: large;
 }
 
 .nav.nav-links>li>a {
@@ -53,14 +54,15 @@ header {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
+    transition: color 0.3s;
 }
 
 .nav-btn {
     background-color: white;
     color: #3E86F5;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 24px;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 500px;
     cursor: pointer;
@@ -69,10 +71,10 @@ header {
 /* Hero section styles */
 .hero-content {
     text-align: center;
-    max-width: 800px;
+    max-width: 850px;
     margin: 120ox auto 0;
-    border: 12px;
     color: white;
+    /* border: 1px solid red; */
 }
 
 .hero-content h1 {
@@ -86,19 +88,21 @@ header {
 }
 
 /* Booking Section Styles */
-.booking-container {
-    /* border: 1px solid blue;
-    max-width: 1100px;
-    /* position: absolute; */
-    /* width: 80px;
-    background-color: aqua;
-    left: 50px; */
-}
+/* .booking-container {
+    border: 1px solid blue;
+    max-width: 110px;
+    position: absolute;
+    width: 80%;
+    left: 50%
+} */
+
+
+
+
 
 /* special offers styles */
 .special-offers {
-    margin: 100px 0px;
-    border: 1px solid green;
+    margin: 100px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,13 +117,14 @@ header {
 
 .top-offers-tab {
     display: flex;
+    justify-content: center;
     background-color: white;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 40px;
     box-shadow: 0 4px 15px rgba(0 0 0 0 .5);
-
 }
+
 
 .offer-btn {
     border: none;
@@ -129,7 +134,7 @@ header {
     font-size: 16px;
     font-weight: 500px;
     cursor: pointer;
-    color: #777;
+    color: #000000;
 }
 
 .offer-btn-active {
@@ -137,6 +142,7 @@ header {
     color: #fff;
     box-shadow: o 4px 10px rgba(77, 150, 255, 0.3);
 }
+
 
 /* Bottom offers Grid Styles  */
 .bottom-offers {
@@ -153,7 +159,7 @@ header {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.card-img-container {
+.offer-img-container {
     position: relative;
 }
 
@@ -164,13 +170,13 @@ header {
 /* :vertical Date styling  */
 .card-date {
     position: absolute;
-    top: 20px;
+    top: 50px;
     z-index: 10;
     right: -25px;
     writing-mode: vertical-rl;
     /* transform: rotate(180deg); */
     color: #8895A7;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500px;
     letter-spacing: 8px;
 }
@@ -179,8 +185,9 @@ header {
     padding: 20px 10px 1opx;
 }
 
-.card-info-top {
+.card-info-tap {
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-bottom: 12px;
 }
@@ -190,27 +197,27 @@ header {
     border-radius: 12px;
     font-size: 12px;
     font-weight: 500px;
+
 }
 
 .tag-relax {
-    background-color: #d10e6c;
-    color:
+    background-color:#FCDDEC;
 }
 
 .tag-adventure {
-    background-color: #DFF4FF;
+    background-color: #F1F1FD;
     color: #7879F1;
 }
 
 .duration {
-    color: #8895A7;
     font-size: 14px;
+    color: #00000080
 }
 
 .card-subtitle {
-    font-size: 22px;
-    font-weight: 600px;
-    color: #1e2a3b;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
     padding: 10px 0px;
 }
 
@@ -223,10 +230,11 @@ header {
 .price {
     font-size: 20px;
     font-weight: 700px;
-    color: #3E86F5;
+    color: black;
 }
 
-.price span {
+
+.price > span {
     font-size: 16px;
     font-weight: 400px;
     color: #8895A7;
@@ -237,7 +245,8 @@ header {
     color: #3E86F5;
     background-color: #F2F6FF;
     padding: 10px 20px;
-    border-radius: 14px;
+    border-radius: 10px;
+    font-size: 14px;
     font-weight: 500px;
 }
 
@@ -245,31 +254,31 @@ header {
     background-color: #e1e9fa;
 }
 
-/* Travel section styles */
 .travel-section {
     margin: 100px 0px;
 }
 
-.travel-section>.container {
+.travel-section >.container {
     display: flex;
 }
 
 .text-column {
-    padding-left: 60px;
+    padding: 60px;
 }
 
 .travel-image-column
+
 .text-column h2 {
     font-size: 48px;
     font-weight: 700px;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
     line-height: 1.2;
 }
 
 .text-column p {
     font: 2opx;
-    color: #555;
+    color: #555555;
     margin-bottom: 20px;
 }
 
@@ -284,9 +293,8 @@ header {
 }
 
 .contact-btn:hover {
-    background-color: #052357;
+    background-c3olor: #00356b;
 }
-
 
 .stat-box {
     background-color: white;
@@ -295,28 +303,35 @@ header {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     position: absolute;
-
 }
+
 .stat-number {
     font-size: 1.4cm;
     font-weight: 700px;
     color: #007bff;
 }
+
 stat-label {
     font-size: 0.8cm;
     text-transform: uppercase;
     color: #666;
 }
 
+
 .top-right {
     top: 20px;
     right: -50px;
 }
+
 .bottom-left {
     top: 50px;
     left: -70px;
-    transform: translateY() ;
+    transform: translate(-50) ;
+}
+
+.bottom-right {
+    bottom: 20px;
+    left:;
 }
