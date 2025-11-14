@@ -313,11 +313,14 @@ header {
     color: #007bff;
 }
 
-stat-label {
+.stat label {
+    
+
+}
     font-size: 0.8cm;
     text-transform: uppercase;
     color: #666;
-}
+
 
 
 .top-right {
