@@ -260,13 +260,17 @@ header {
 
 .travel-section >.container {
     display: flex;
+    flex-wrap: wrap;
+    align-items: ;
 }
 
 .text-column {
     padding: 60px;
 }
 
-.travel-image-column
+.travel-image-column {
+
+}
 
 .text-column h2 {
     font-size: 48px;
@@ -280,6 +284,8 @@ header {
     font: 2opx;
     color: #555555;
     margin-bottom: 20px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5)
 }
 
 .contact-btn {
