@@ -8,7 +8,7 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    background-color: #C4C4C4;
+    background-color: #f4f7f9;
 }
 
 
@@ -107,7 +107,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: F4795A;
+    background-color: #f4f7f9;
 }
 
 .special-offers h2 {
@@ -123,7 +123,7 @@ header {
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 40px;
-    box-shadow: 0 4px 15px rgba(0 0 0 0 .5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -133,15 +133,17 @@ header {
     padding: 10px 25px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     cursor: pointer;
     color: #000000;
+
+
 }
 
 .offer-btn-active {
     background-color: #3E86F5;
-    color: #fff;
-    box-shadow: o 4px 10px rgba(77, 150, 255, 0.3);
+    color: white;
+    box-shadow: 0 4px 10px rgba(77, 150, 255, 0.3);
 }
 
 
@@ -183,7 +185,7 @@ header {
 }
 
 .card-content {
-    padding: 20px 10px 1opx;
+    padding: 20px 10px;
 }
 
 .card-info-tap {
@@ -197,7 +199,7 @@ header {
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 12px;
-    font-weight: 500px;
+    font-weight: 500;
 
 }
 
@@ -216,9 +218,9 @@ header {
 }
 
 .card-subtitle {
-    font-size: 22px;
-    font-weight: 600;
-    color: #1e2a3b;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
     padding: 10px 0px;
 }
 
@@ -230,8 +232,8 @@ header {
 
 .price {
     font-size: 20px;
-    font-weight: 700px;
-    color: #1e2a3b;
+    font-weight: 700;
+    color: black;
 }
 
 
@@ -289,16 +291,15 @@ header {
 }
 
 .text-column p {
-    font: 2opx;
+    font: 20px;
     color: #555555;
     margin-bottom: 20px;
     text-align: justify;
-    color: rgba(0, 0, 0, 0.5)
 }
 
 .contact-btn {
     display: inline-block;
-    background-color: #3E86F5;
+    background-color: #007bff;
     color: white;
     padding: 15px 30px;
     border-radius: 8px;
@@ -328,28 +329,25 @@ header {
 }
 
 .stat label {
-    font-size: 0.8cm;
+    font-size: 011cm;
     text-transform: uppercase;
     color: #666;
 }
-text-transform: uppercase;
-color: #666;
-
-
 
 .top-right {
-    top: 20px;
-    right: -50px;
+    top: 45px;
+    right: -80px;
 }
 
 .middle-left {
     top: 50px;
     left: -70px;
+    transform: translate(-50px);
 }
 
 .bottom-right {
     bottom: 45px;
-    right: -50px;
+    right: -80px;
 }
 
 /* Destination section */
@@ -365,7 +363,6 @@ color: #666;
 
 .destination-section h2 {
     font-size: 48px;
-    font-weight: 700;
     text-align: center;
 }
 .category-tabs {
@@ -389,9 +386,13 @@ color: #666;
     color: #3E86F5;
     box-shadow: 0 4px 10px rgba(77, 150, 255, 0);
 }
+.tab-button.adb {
+    color: #00000080
+}
 .destination-card-grid{
     display: grid;
     grid-template-columns: repeat(4 1fr);
+    gap: 30px;
 
 }
 .destination-card {
@@ -400,6 +401,7 @@ color: #666;
     box-shadow: 0 10px 30px rgba(0, o, 0, 0.1);
     overflow: hidden;
     padding: 10px;
+    cursor: pointer;
     position: relative;
 }
 
@@ -410,7 +412,6 @@ color: #666;
 
 .card-image-wrapper {
     overflow: hidden;
-    border-radius: 20px;
     border-radius: 20px;
     /* border: 1px solid red; */
     height: 200px;
@@ -465,9 +466,8 @@ color: #666;
 
 
 /* Testimonial Section Styles */
-.testimonial-section {
+.testimonial-section {}
 
-}
 .container {
     max-width: 1200px;
     margin: 0 auto;
